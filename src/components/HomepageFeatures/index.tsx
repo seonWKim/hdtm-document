@@ -9,36 +9,33 @@ type FeatureItem = {
 };
 
 const FeatureList: FeatureItem[] = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+    {
+        title: 'Where Leaders Are Made',
+        Svg: require('@site/static/img/leaders.svg').default,
+        description: (
+            <>
+                Join us to develop your leadership skills through various roles and responsibilities.
+            </>
+        ),
+    },
+    {
+        title: 'Lots of Speech Opportunities',
+        Svg: require('@site/static/img/speech.svg').default,
+        description: (
+            <>
+                Enhance your public speaking skills with numerous opportunities to speak in front of an audience.
+            </>
+        ),
+    },
+    {
+        title: 'Gatherings with Great People',
+        Svg: require('@site/static/img/gatherings.svg').default,
+        description: (
+            <>
+                Network and connect with like-minded individuals in a supportive environment.
+            </>
+        ),
+    },
 ];
 
 function Feature({title, Svg, description}: FeatureItem) {
