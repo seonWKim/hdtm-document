@@ -42,7 +42,7 @@ You may also see that there are two or three areas of speaking that you notice m
 language, vocal variety, eye contact with the audience, or something else. These can be part of an evaluation that gives
 you an opportunity to provide positive feedback, or a suggested improvement.
 
-<b>Your goal is to provide the greatest benefit to the speaker</b>
+<b>Your goal is to provide the greatest benefit to the speaker.</b>
 
 ## Performing the Evaluation
 
