@@ -6,15 +6,15 @@ sidebar_position: 1
 
 ## Description of the Toastmasters Role
 
-The toastmaster manages three session of the meeting.
+The toastmaster manages following sessions of the meeting.
 
 - [Toastmaster Session](#table-topic-session)
 - [Prepared Speech Session](#prepared-speech-session)
 - [Table Topic Session](#table-topic-session)
 - [Evaluation Session](#evaluation-session)
-- [Award & Recognition Session](#award--recognition-session-)
+- [Award & Recognition Session](#award--recognition-session)
 
-### Toastmaster Session
+## Toastmaster Session
 
 When introduced by the president(or chairperson), please state the following
 
@@ -30,7 +30,7 @@ Pause briefly 😮‍💨
 General Evaluator takes control of the meeting from the toastmaster. After the general evaluator completes the
 introduction of the evaluation team, control is passed back to the toastmaster.
 
-### Prepared speech session
+## Prepared speech session
 
 In this session, there can be up to 3 speakers for the meeting. Adjust the introduction according to the number of
 speakers for this meeting.
@@ -74,15 +74,15 @@ After all votes are submitted, announce break time.
 
 > We will now have a 10 minutes break. Don't forget to pay the room fee. Thank you.
 
-### Table Topic Session
+## Table Topic Session
 
 Introduce table topic master and table topic master will lead the session.
 
-> It's now my pleasure to introduce our <b>table topic master</b>, `{name}.`
+> It's now my pleasure to introduce our <b>table topic master</b>, `{name}`. 
 
 When table topic concludes, the table topic master returns control of the meeting to the toastmaster.
 
-### Evaluation Session
+## Evaluation Session
 
 Introduce the general evaluator who will lead the evaluation session.
 
@@ -90,7 +90,7 @@ Introduce the general evaluator who will lead the evaluation session.
 
 When the evaluation session concludes, the general evaluator returns control of the meeting to the toastmaster.
 
-### Award & Recognition Session
+## Award & Recognition Session
 
 The toastmaster takes control of the meeting to introduce the best speaker, the best evaluator, and best table topic
 speaker(the ballot counter will let you who to announce). We provide ribbons for the winners of each session and take
@@ -99,15 +99,15 @@ pictures.
 > Hello again, I hope everyone has been enjoying the meeting. I will now introduce our best speaker, the best evaluator, and
 > best table topic speaker. Are you ready?
 
-> Our best speaker is `{name}` 🥳🥳🥳
+> Our best speaker is `{name}`. 🥳 🥳 🥳
 
-> Our best evaluator is `{name}` 🥳🥳🥳
+> Our best evaluator is `{name}`. 🥳 🥳 🥳
 
-> Our best table topic speaker is `{name}` 🥳🥳🥳
+> Our best table topic speaker is `{name}`. 🥳 🥳 🥳
 
 If there are speakers who have delivered their first ice breaking speech, congratulate their first speech with icebreaker ribbon.
 
-> Today `{name}` has deliverd his/her best ice breaking speech. Please congratulate him/her
+> Today `{name}` has deliverd his/her best ice breaking speech. Please congratulate him/her. 
 
 If there are first time guests, give them welcome ribbons. 
 
@@ -115,6 +115,4 @@ If there are first time guests, give them welcome ribbons.
 
 Now return the control back to the president(or chairperson if the president is not present)
 
-> I now return control back to our president
-
-Well done 🎉🎉🎉
+> I now return control back to our president.
