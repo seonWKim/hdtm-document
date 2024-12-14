@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhdtm_document=self.webpackChunkhdtm_document||[]).push([[9464],{1132:t=>{t.exports=JSON.parse('{"metadata":{"permalink":"/hdtm-document/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
