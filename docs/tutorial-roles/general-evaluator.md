@@ -4,11 +4,11 @@ sidebar_position: 2
 
 # General Evaluator
 
-## Description of the General Evaluator role
+## Description
 
 The general evaluator evaluates everything that takes place during the club meeting. In addition, the general evaluator
 conducts the evaluation portion of the meeting and is responsible for the evaluation team: the speech evaluators, ah
--counter, grammarian and timer. As general evaluator, you should:
+-counter, grammarian and timer. As general evaluator, you should do the following:
 
 - Ensure other evaluators know their tasks and responsibilities.
 - Explain the purpose and benefits of evaluations to the group/
@@ -26,7 +26,7 @@ The general evaluator manages the following sessions during the meeting:
 
 When introduced by the Toastmaster, please state the following:
 
-> Thank you, Mr or Madam toastmaster. Good evening fellow toastmasters and guests. The purpose of the general evaluator
+> Thank you, Mr and Madam toastmaster. Good evening fellow toastmasters and guests. The purpose of the general evaluator
 > is to evaluate everything that takes place throughout the meeting.
 >
 > During the meeting, I will take notes on everything that happens and doesn't happen. I will evaluate each participant

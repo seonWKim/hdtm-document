@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Toastmaster
 
-## Description of the Toastmasters Role
+## Description
 
 The toastmaster manages the following sessions during the meeting:
 
