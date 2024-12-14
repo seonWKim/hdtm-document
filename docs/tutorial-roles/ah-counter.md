@@ -4,40 +4,13 @@ sidebar_position: 9
 
 # Ah-counter
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+## Description
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+The Ah-Counter helps members improve their speaking clarity by identifying filler words and sounds (
+like "ah," "um," "you know") and repeated phrases. At the start of the meeting, they explain their role and what they
+will be listening for. Throughout the meeting, they track these instances for all speakers. At the end, they present a
+report, offering valuable feedback to reduce distracting habits.
 
-## Create your first React Page
+## Toastmaster Session 
 
-Create a file at `src/pages/my-react-page.js`:
-
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
-
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
-
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+When introduced by the general evaluator, please state the following 
