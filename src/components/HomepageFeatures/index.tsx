@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
         Svg: require('@site/static/img/speech.svg').default,
         description: (
             <>
-                Enhance your public speaking skills with numerous opportunities to speak in front of an audience.
+                Enhance your public speaking skills with numerous opportunities to speak in front of audiences.
             </>
         ),
     },
