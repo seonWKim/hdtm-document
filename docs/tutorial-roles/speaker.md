@@ -19,14 +19,20 @@ consult with the toastmaster and chairperson to see if it is possible.
 To deliver a speech, you must first become a member of HDTM. Additionally, you should register as a speaker at the
 previous meeting or consult with the officers.
 
-Refer to the pathway you selected on the Toastmasters International
-website. Inform your evaluator about the pathway project and level you are working on, as well as the title of your
-speech.
+Refer to the pathway you selected on the [Toastmasters International website](https://www.toastmasters.org/). Inform
+your evaluator the following: 
+
+- Pathway name 
+- Level
+- Speech project 
+- Speech title 
+- Speech duration 
 
 During the meeting, the toastmaster will call each speaker to the stage to deliver their speeches. Your speech
 will be timed and evaluated. If you wish to record your speech, ask someone at the meeting to do so.
 
 ### After Delivering Speech
 
-After delivering your speech, visit the Toastmasters International website to mark your pathway project as completed.
+After delivering your speech, visit the [Toastmasters International website](https://www.toastmasters.org/) to mark your
+pathway project as completed.
 Review your speech with your evaluator and research ways to improve your future speeches.
