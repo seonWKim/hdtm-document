@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhdtm_document=self.webpackChunkhdtm_document||[]).push([[1903],{1912:t=>{t.exports=JSON.parse('{"blogBasePath":"/hdtm-document/blog","blogTitle":"Blog","authorsListPath":"/hdtm-document/blog/authors"}')}}]);
