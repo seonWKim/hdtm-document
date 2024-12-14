@@ -29,7 +29,7 @@ When introduced by the general evaluator, please state the following description
 
 You will be called by the general evaluator to give the grammarian's report.
 
-### Language Usages
+### Language Usage
 
 | Words (Interesting, Unusual, or Others) | Quotes, Sayings, Thoughts | Notes on Grammar or Language (Good Use or Usage That Could Be Improved) |
 |-----------------------------------------|---------------------------|-------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ You will be called by the general evaluator to give the grammarian's report.
 | Word 4                                  | Quote 4                   | Note 4                                                                  |
 | Word 5                                  | Quote 5                   | Note 5                                                                  |
 
-### Word of Day USage 
+### Word of Day Usage 
 
 | Name  | Count |
 |-------|-------|
