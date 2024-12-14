@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'HDTM',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Where leaders are made',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
