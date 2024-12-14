@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Description of the Toastmasters Role
 
-The toastmaster manages following sessions of the meeting.
+The toastmaster manages the following sessions during the meeting:
 
 - [Toastmaster Session](#table-topic-session)
 - [Prepared Speech Session](#prepared-speech-session)
@@ -78,7 +78,7 @@ After all votes are submitted, announce break time.
 
 Introduce table topic master and table topic master will lead the session.
 
-> It's now my pleasure to introduce our <b>table topic master</b>, `{name}`. 
+> It's now my pleasure to introduce our <b>table topic master</b>, `<name>`. 
 
 When table topic concludes, the table topic master returns control of the meeting to the toastmaster.
 
@@ -86,7 +86,7 @@ When table topic concludes, the table topic master returns control of the meetin
 
 Introduce the general evaluator who will lead the evaluation session.
 
-> It's now my pleasure to introduce our general evaluator, `{name}`.
+> It's now my pleasure to introduce our general evaluator, `<name>`.
 
 When the evaluation session concludes, the general evaluator returns control of the meeting to the toastmaster.
 
@@ -99,19 +99,19 @@ pictures.
 > Hello again, I hope everyone has been enjoying the meeting. I will now introduce our best speaker, the best evaluator, and
 > best table topic speaker. Are you ready?
 
-> Our best speaker is `{name}`. 🥳 🥳 🥳
+> Our best speaker is `<name>`. 🥳 🥳 🥳
 
-> Our best evaluator is `{name}`. 🥳 🥳 🥳
+> Our best evaluator is `<name>`. 🥳 🥳 🥳
 
-> Our best table topic speaker is `{name}`. 🥳 🥳 🥳
+> Our best table topic speaker is `<name>`. 🥳 🥳 🥳
 
 If there are speakers who have delivered their first ice breaking speech, congratulate their first speech with icebreaker ribbon.
 
-> Today `{name}` has deliverd his/her best ice breaking speech. Please congratulate him/her. 
+> Today `<name>` has deliverd his/her best ice breaking speech. Please congratulate him/her. 
 
 If there are first time guests, give them welcome ribbons. 
 
-> Today `{name}` has visited HDTM for the first time. Let's thank him/her for participating today's meeting.
+> Today `<name>` has visited HDTM for the first time. Let's thank him/her for participating today's meeting.
 
 Now return the control back to the president(or chairperson if the president is not present)
 
