@@ -63,7 +63,7 @@ const config: Config = {
 
     themeConfig: {
         // Replace with your project's social card
-        image: 'https://github.com/seonWKim/hdtm-document/blob/main/static/img/toastmaster.png',
+        image: 'https://drive.google.com/file/d/18WCHmVaQ9qtVhpRUttVndgB7w0Et_nRr/view?usp=drive_link',
         navbar: {
             title: 'HDTM',
             logo: {
