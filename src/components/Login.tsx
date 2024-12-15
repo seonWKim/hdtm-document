@@ -20,27 +20,27 @@ const Login: React.FC = () => {
   };
 
   return (
-      <div style={{ textAlign: 'center', marginTop: '50px' }}>
-        {user ? (
-            <div>
-              <p>Welcome, {user.displayName}</p>
-              <img
-                  src={user.photoURL}
-                  alt="User Avatar"
-                  style={{ borderRadius: '50%' }}
-              />
-            </div>
-        ) : (
-            <div className={styles.buttons}>
-              <Link
-                  className="button button--primary button--lg"
-                  onClick={handleLogin}
-              >
-                {loading ? 'Signing in...' : 'Sign in with Google'}
-              </Link>
-            </div>
-        )}
-      </div>
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      {user ? (
+        <div>
+          <p>Welcome, {user.displayName}</p>
+          <img
+            src={user.photoURL}
+            alt="User Avatar"
+            style={{ borderRadius: '50%' }}
+          />
+        </div>
+      ) : (
+        <div style={{ textAlign: 'left' }}>
+          <Link
+            className="button button--primary button--md"
+            onClick={handleLogin}
+          >
+            {loading ? 'Signing in...' : 'Sign in with Google'}
+          </Link>
+        </div>
+      )}
+    </div>
   );
 };
 

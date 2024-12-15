@@ -6,9 +6,11 @@ import {
   limit,
   orderBy,
   query,
+  where,
 } from 'firebase/firestore';
 import { db } from '@site/src/firebase/config';
 import { Feedback } from '@site/src/types/Feedback';
+import { v7 as uuidv7 } from 'uuid';
 
 const guestFeedbackCollection = collection(db, '/guest-feedback');
 
@@ -18,7 +20,8 @@ export const saveFeedback = async (
   content: string
 ) => {
   try {
-    const docRef = await addDoc(guestFeedbackCollection, {
+    await addDoc(guestFeedbackCollection, {
+      id: uuidv7(),
       name,
       email,
       content,
@@ -30,12 +33,26 @@ export const saveFeedback = async (
   }
 };
 
-export const findFeedbacks = async () => {
-  const feedbacksQuery = query(
-    guestFeedbackCollection,
-    orderBy('createdAt', 'desc'),
-    limit(10)
-  );
+export const findFeedbacks = async (
+  pageSize: number,
+  latestIdSeen?: string
+) => {
+  let feedbacksQuery;
+
+  if (latestIdSeen) {
+    feedbacksQuery = query(
+      guestFeedbackCollection,
+      where('id', '<', latestIdSeen),
+      orderBy('id', 'desc'),
+      limit(pageSize)
+    );
+  } else {
+    feedbacksQuery = query(
+      guestFeedbackCollection,
+      orderBy('id', 'desc'),
+      limit(pageSize)
+    );
+  }
 
   try {
     const querySnapshot = await getDocs(feedbacksQuery);

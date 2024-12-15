@@ -5,7 +5,7 @@ import Link from '@docusaurus/Link';
 import { getUser } from '@site/src/firebase/auth';
 import { saveFeedback } from '@site/src/firebase/store/feedback';
 
-const Feedback: React.FC = () => {
+const SubmitFeedback: React.FC = () => {
     const [user, setUser] = useState<User | null>(null);
     const [feedback, setFeedback] = useState('');
 
@@ -24,6 +24,8 @@ const Feedback: React.FC = () => {
             await saveFeedback(name, email, feedback);
             setFeedback('');
         }
+
+        window.location.reload()
     };
 
     if (!user) {
@@ -56,7 +58,7 @@ const Feedback: React.FC = () => {
         />
                 <div style={{ alignSelf: 'flex-end' }}>
                     <Link
-                        className="button button--primary button--lg"
+                        className="button button--primary button--md"
                         onClick={handleFeedbackSubmit}
                     >
                         Submit
@@ -67,4 +69,4 @@ const Feedback: React.FC = () => {
     );
 };
 
-export default Feedback;
+export default SubmitFeedback;
