@@ -16,20 +16,14 @@ const Login: React.FC = () => {
       console.error('Error during sign-in: ', error);
     } finally {
       setLoading(false);
+      window.location.reload()
     }
   };
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       {user ? (
-        <div>
-          <p>Welcome, {user.displayName}</p>
-          <img
-            src={user.photoURL}
-            alt="User Avatar"
-            style={{ borderRadius: '50%' }}
-          />
-        </div>
+        <div />
       ) : (
         <div style={{ textAlign: 'left' }}>
           <Link
