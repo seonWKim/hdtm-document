@@ -12,7 +12,6 @@ const Login: React.FC = () => {
     try {
       const result = await signInWithGoogle();
       setUser(result.user);
-      console.log(result);
     } catch (error) {
       console.error('Error during sign-in: ', error);
     } finally {
