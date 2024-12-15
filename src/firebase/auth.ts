@@ -1,12 +1,11 @@
-import {auth, GoogleAuthProvider, signInWithPopup} from './config/firebaseConfig';
+import {auth} from '@site/src/firebase/config';
+import {GoogleAuthProvider, signInWithPopup} from 'firebase/auth'
 
 const provider = new GoogleAuthProvider();
 
 const signInWithGoogle = async () => {
     try {
-        const result = await signInWithPopup(auth, provider);
-        const user = result.user;
-        console.log("User Info: ", user);
+        return await signInWithPopup(auth, provider);
     } catch (error) {
         console.error("Error during sign-in: ", error);
     }
