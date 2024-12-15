@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { signInWithGoogle } from '@site/src/firebase/auth';
 import Link from '@docusaurus/Link';
-import styles from './common.module.css';
 
-const Login: React.FC = () => {
+interface LoginProps {
+  buttonText?: string;
+}
+
+const Login: React.FC<LoginProps> = ({ buttonText = 'Sign in with Google' }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(false);
 
@@ -16,7 +19,7 @@ const Login: React.FC = () => {
       console.error('Error during sign-in: ', error);
     } finally {
       setLoading(false);
-      window.location.reload()
+      window.location.reload();
     }
   };
 
@@ -27,10 +30,10 @@ const Login: React.FC = () => {
       ) : (
         <div style={{ textAlign: 'left' }}>
           <Link
-            className="button button--primary button--md"
+            className="button button--outline button--primary button--md"
             onClick={handleLogin}
           >
-            {loading ? 'Signing in...' : 'Sign in with Google'}
+            {loading ? 'Signing in...' : buttonText}
           </Link>
         </div>
       )}

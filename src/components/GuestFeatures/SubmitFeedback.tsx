@@ -29,7 +29,7 @@ const SubmitFeedback: React.FC = () => {
     };
 
     if (!user) {
-        return <Login />;
+        return <Login buttonText={'Sign in with Google to give us feedbacks'} />;
     }
 
     return (
