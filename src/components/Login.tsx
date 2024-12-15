@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { signInWithGoogle } from '@site/src/firebase/auth';
+import Link from '@docusaurus/Link';
+import styles from './common.module.css';
 
 const Login: React.FC = () => {
   const [user, setUser] = useState(null);
@@ -19,37 +21,27 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      {user ? (
-        <div>
-          <p>Welcome, {user.displayName}</p>
-          <img
-            src={user.photoURL}
-            alt="User Avatar"
-            style={{ borderRadius: '50%' }}
-          />
-        </div>
-      ) : (
-        <button
-          onClick={handleLogin}
-          style={{
-            padding: '10px 20px',
-            fontSize: '16px',
-            backgroundColor: '#4285F4',
-            color: '#fff',
-            border: 'none',
-            borderRadius: '5px',
-            cursor: 'pointer',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-          }}
-          disabled={loading}
-        >
-          {loading ? 'Signing in...' : 'Sign in with Google'}
-        </button>
-      )}
-    </div>
+      <div style={{ textAlign: 'center', marginTop: '50px' }}>
+        {user ? (
+            <div>
+              <p>Welcome, {user.displayName}</p>
+              <img
+                  src={user.photoURL}
+                  alt="User Avatar"
+                  style={{ borderRadius: '50%' }}
+              />
+            </div>
+        ) : (
+            <div className={styles.buttons}>
+              <Link
+                  className="button button--primary button--lg"
+                  onClick={handleLogin}
+              >
+                {loading ? 'Signing in...' : 'Sign in with Google'}
+              </Link>
+            </div>
+        )}
+      </div>
   );
 };
 
