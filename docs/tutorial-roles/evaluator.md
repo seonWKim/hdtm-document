@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+description: The evaluator evaluates speaker's speech. An evaluation normally consists of three main objectives.
 ---
 
 # Evaluator

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+description: The Toastmaster Speaker is responsible for delivering a prepared speech during the meeting. 
 ---
 
 # Speaker

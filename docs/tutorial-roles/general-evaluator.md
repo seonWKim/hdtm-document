@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: The general evaluator evaluates everything that takes place during the club meeting.
 ---
 
 # General Evaluator

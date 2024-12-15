@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: The toastmaster manages overall sessions of the meeting. 
 ---
 
 # Toastmaster

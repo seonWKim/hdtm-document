@@ -1,5 +1,7 @@
 ---
 sidebar_position: 9
+description: The Ah-Counter helps members improve their speaking clarity by identifying filler words and sounds (
+  like "ah," "um," "you know") and repeated phrases. 
 ---
 
 # Ah-counter

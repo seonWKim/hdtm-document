@@ -1,5 +1,7 @@
 ---
 sidebar_position: 3
+description: The table topic master delivers the table topic sessions of the meeting, which helps train members to quickly organize
+    and express their thoughts in an impromptu setting. 
 ---
 
 # Table Topics Master

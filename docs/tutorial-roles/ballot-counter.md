@@ -1,5 +1,7 @@
 ---
 sidebar_position: 10
+description: The Ballot Counter collects and counts votes for meeting awards, such as Best Speaker, Best Evaluator, and Best Table
+  Topics Speaker. 
 ---
 
 # Ballot counter

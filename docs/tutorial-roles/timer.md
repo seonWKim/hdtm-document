@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+description: The Timer ensures meetings run on schedule by tracking the time of speeches, table topics, and evaluations. 
 ---
 
 # Timer

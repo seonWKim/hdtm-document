@@ -1,5 +1,7 @@
 ---
 sidebar_position: 7
+description: The Grammarian role helps members enhance their language skills by introducing a Word of the Day to expand
+  vocabulary and encouraging its use during the meeting. 
 ---
 
 # Grammarian
