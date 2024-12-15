@@ -75,8 +75,8 @@ const config: Config = {
           label: 'Tutorial',
         },
         {
-          href: 'https://github.com/seonWKim/hdtm-document',
-          label: 'GitHub',
+          href: 'https://www.instagram.com/hongdaetoastmasters/',
+          label: 'Instagram',
           position: 'right',
         },
       ],
