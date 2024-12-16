@@ -30,7 +30,7 @@ const Login: React.FC<LoginProps> = ({ buttonText = 'Sign in with Google' }) => 
       ) : (
         <div style={{ textAlign: 'left' }}>
           <Link
-            className="button button--outline button--primary button--md"
+            className="button button--primary button--md"
             onClick={handleLogin}
           >
             {loading ? 'Signing in...' : buttonText}

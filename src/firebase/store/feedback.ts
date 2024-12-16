@@ -15,16 +15,18 @@ import { v7 as uuidv7 } from 'uuid';
 const guestFeedbackCollection = collection(db, '/guest-feedback');
 
 export const saveFeedback = async (
-  name: string,
-  email: string,
-  content: string
+    name: string,
+    email: string,
+    photoURL: string | null,
+    content: string
 ) => {
   try {
     await addDoc(guestFeedbackCollection, {
       id: uuidv7(),
-      name,
-      email,
-      content,
+      name: name,
+      email: email,
+      photoURL: photoURL,
+      content: content,
       createdAt: new Date(),
       updatedAt: new Date(),
     });

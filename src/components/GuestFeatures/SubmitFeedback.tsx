@@ -21,7 +21,8 @@ const SubmitFeedback: React.FC = () => {
         if (user) {
             const name = user.displayName || 'Anonymous';
             const email = user.email || 'No email provided';
-            await saveFeedback(name, email, feedback);
+            const photoURL = user.photoURL
+            await saveFeedback(name, email, photoURL, feedback);
             setFeedback('');
         }
 
