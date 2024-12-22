@@ -13,7 +13,7 @@ description: 2024 Christmas Event
 | Da Yeon         | SNL with 다연        |
 | Ji Won          | 미팅 전 저녁식사          |
 | Ji Su           | 강아지 인형             |
-| Hae Bin         | 핸드크림               |
+| Hye Bin         | 핸드크림               |
 | Naomi           | 베트남 쌀국수 소스         |
 | Michael         | AWS 백팩             |
 | Jae Ho          | PPT 기초 강의권         |
