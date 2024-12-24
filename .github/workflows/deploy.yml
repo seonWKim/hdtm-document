@@ -32,11 +32,9 @@ jobs:
         run: npm install
 
       - name: Run deploy script
-        env:
-          GITHUB_TOKEN: ${{ secrets.HDTM_GITHUB_TOKEN }}
         run: |
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git config --global user.name "${{ github.actor }}"
-          git remote set-url origin https://${{ env.REPO_OWNER }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ env.REPO_OWNER }}/${{ env.PROJECT_NAME }}.git
+          git remote set-url origin https://${{ env.REPO_OWNER }}:${{ secrets.HDTM_GITHUB_TOKEN }}@github.com/${{ env.REPO_OWNER }}/${{ env.PROJECT_NAME }}.git
 
           npm run deploy
