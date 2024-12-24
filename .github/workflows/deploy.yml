@@ -31,6 +31,9 @@ jobs:
           git config --global user.email "${{ steps.user_details.outputs.email }}"
           git config --global user.name "${{ steps.user_details.outputs.name }}"
 
+      - name: Set remote URL
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+
       - name: Install dependencies
         run: npm install
 
