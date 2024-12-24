@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction 
 
-Let's discover **how to join HDTM meetings**.
+Let's discover **how to join HDTM meetings**. hahaha
 
 ## Getting Started
 
