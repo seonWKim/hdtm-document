@@ -9,36 +9,39 @@ type FeatureItem = {
 };
 
 const FeatureList: FeatureItem[] = [
-    {
-        title: 'Where Leaders Are Made',
-        Svg: require('@site/static/img/leaders.svg').default,
-        description: (
-            <>
-                Join us to develop your leadership skills through various roles and responsibilities.
-            </>
-        ),
-    },
-    {
-        title: 'Lots of Speech Opportunities',
-        Svg: require('@site/static/img/speech.svg').default,
-        description: (
-            <>
-                Enhance your public speaking skills with numerous opportunities to speak in front of audiences.
-            </>
-        ),
-    },
-    {
-        title: 'Gatherings with Great People',
-        Svg: require('@site/static/img/gatherings.svg').default,
-        description: (
-            <>
-                Network and connect with like-minded individuals in a supportive environment.
-            </>
-        ),
-    },
+  {
+    title: 'Where Leaders Are Made',
+    Svg: require('@site/static/img/leaders.svg').default,
+    description: (
+      <>
+        Join us to develop your leadership skills through various roles and
+        responsibilities.
+      </>
+    ),
+  },
+  {
+    title: 'Lots of Speech Opportunities',
+    Svg: require('@site/static/img/speech.svg').default,
+    description: (
+      <>
+        Enhance your public speaking skills with numerous opportunities to speak
+        in front of audiences.
+      </>
+    ),
+  },
+  {
+    title: 'Gatherings with Great People',
+    Svg: require('@site/static/img/gatherings.svg').default,
+    description: (
+      <>
+        Network and connect with like-minded individuals in a supportive
+        environment.
+      </>
+    ),
+  },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
