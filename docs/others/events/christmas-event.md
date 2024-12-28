@@ -7,6 +7,8 @@ description: 2024 Christmas Event
 
 ## Auction
 
+Our Christmas auction has ended successfully! 🥳🎉
+
 | Name            | Items                             | Price(Won)  |
 |-----------------|-----------------------------------|-------------|
 | Kim Seon Woo    | 프로그래밍 기초, 웹사이트 만들기                | 65,000      |
