@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 description: Overview of the speech contest, including roles, requirements, and rules.
 ---
 
