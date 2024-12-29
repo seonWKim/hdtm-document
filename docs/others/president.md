@@ -3,8 +3,18 @@ sidebar_position: 3
 description: Overview of the speech contest, including roles, requirements, and rules.
 ---
 
-# Speech Contest
+# Table of Contents
 
+- [Speech Contest](#speech-contest)
+- [Description](#description)
+- [Requirements](#requirements)
+    - [Contest Chair](#contest-chair)
+    - [Chief Judge](#chief-judge)
+    - [Voting Judges](#voting-judges6-required)
+    - [A Tiebreaking Judge](#a-tiebreaking-judge)
+    - [Counters](#counters2-required)
+    - [Timers](#timers2-required)
+  
 ## Description
 
 There are two types of speech contests: `International speech contest` and `Korean speech contest`.
@@ -16,7 +26,7 @@ There are two types of speech contests: `International speech contest` and `Kore
 
 ## Requirements
 
-We need at least 12 role takers to prepare for the speech contest.
+We need the following roles to run speech contest.
 
 ### Contest Chair
 
@@ -43,8 +53,8 @@ We need at least 12 role takers to prepare for the speech contest.
         - Send contest rule book
         - Other rules
 
-## Example of the Contest Rules Briefing
-
+<details>
+<summary>Example of the Contest Rules Briefing</summary>
 1. To be eligible to compete in the International Speech Contest, contestants must be a paid member of a club in the
    area, division, and district in which they are competing. In addition, contestants must have completed six speech
    projects in the Competent Communication manual or in Levels 1 and 2 of any path in the Toastmasters Pathways learning
@@ -76,7 +86,10 @@ We need at least 12 role takers to prepare for the speech contest.
 8. Please submit the 1183-Speaker Certification Eligibility Originality & 1189 Contestant Bio Info. I’ll send you these
    via email.
 
-## Example of the Contest Chair Script
+</details>
+
+<details>
+<summary>Example of the Contest Chair Script</summary>
 
 Hello, Toastmasters. My name is `name`, the HDTM contest chair. I’ll lead the Club Speech Contest today. Briefly, first
 the International Speech Contest, and Korean Speech Contest. There are O Korean Contestants and O International Speech
@@ -106,16 +119,59 @@ Now, I’ll introduce the Speech Contest Rules briefly.
    speaker `name`, Title, Title, `name`. Thank you, `name`. Please give a one-minute silence for judging. Timer, if the
    minute is over, let us know it. Our second speaker `name`, Title, Title, `name` (DO NOT USE next, last, and so on).
 
-### 6 Voting Judges (at least 5)
-
-### Contestants
+</details> 
 
 ### Chief Judge
 
+- **Determine the ROLE TAKERS**:
+    - 5 or 6 voting judges, 1 tiebreaking judge, 2 timers, 2 counters, 2 sergeants at arms
+- **DO NOT NOTIFY Voting judges & Tiebreaking Judges**:
+    - Voting judges can know each other
+    - Announce the voting judges to counters for collecting the voting sheets
+- **Send the contest rule book to the role takers**
+- **Notify the role takers of each rule and the place of the contest before the contest**
+- **Prepare and collect the role takers' sheets**:
+    - Notification of contest winner result form
+    - Judge's certification of eligibility and code of ethics
+    - Counter's tally sheet
+    - Speech contest time record sheet and instructions for timers
+
+### Voting Judges(6 required)
+
+- **Keep secret forever**: The identity of the voting judges must remain confidential indefinitely.
+- **Receive "Judge's Certification of Eligibility and Code of Ethics"**: Each voting judge must receive and adhere to
+  this certification during the judging process.
+- **Voting judges can know each other but must keep it secret**: While voting judges may be aware of each other's
+  identities, they must not disclose this information.
+- **Must be fair**: Voting judges are required to be impartial and fair in their evaluations.
+
 ### A Tiebreaking Judge
 
-### 2 Counters
+- **Keep secret forever**:
+    - Only you and the chief judge should know the identity of the tiebreaking judge.
+- **Does not attend the judges' briefing**: The tiebreaking judge should not be present at the judges' briefing.
+- **Receive "Judge's Certification of Eligibility and Code of Ethics"**: The tiebreaking judge must receive and adhere
+  to this certification during the judging process.
 
-### 2 Timers
+### Counters(2 required)
 
-### 2 Sergeants at Arms
+- **Collect "Judge's Certification of Eligibility and Code of Ethics"**: During the contest, counters are responsible
+  for collecting these certifications from the judges.
+- **Receive "Counter's Tally Sheet"**: Counters must receive and use this tally sheet to record the results.
+- **Count "Judge's Certification of Eligibility and Code of Ethics"**: Counters must accurately count and verify the
+  certifications collected.
+
+### Timers(2 required)
+
+- **One is provided with a stopwatch, and the other with a signaling device** that displays green, yellow, and red
+  colors.
+- **Receive "Speech Contest Time Record Sheet and Instructions for Timers"**.
+- **Timing rules for International Speeches**:
+    - Speeches must be from five to seven minutes.
+    - A contestant will be disqualified if the speech is less than four minutes 30 seconds or more than seven minutes 30
+      seconds.
+    - **Signal timings**:
+        - A green signal will be displayed at five minutes and remain displayed for one minute.
+        - A yellow signal will be displayed at six minutes and remain displayed for one minute.
+        - A red signal will be displayed at seven minutes and will remain on until the conclusion of the speech.
+- **No signal can be given for the overtime period** in all speech contests.
