@@ -175,3 +175,8 @@ Now, I’ll introduce the Speech Contest Rules briefly.
         - A yellow signal will be displayed at six minutes and remain displayed for one minute.
         - A red signal will be displayed at seven minutes and will remain on until the conclusion of the speech.
 - **No signal can be given for the overtime period** in all speech contests.
+
+
+## Reference 
+
+[HDTM Officer Roles](https://drive.google.com/file/d/12Qwu6l6JzAfkDB8WSGDP5wpZheJYEpka/view) 
