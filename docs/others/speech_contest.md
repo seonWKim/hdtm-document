@@ -3,7 +3,7 @@ sidebar_position: 3
 description: Overview of the speech contest, including roles, requirements, and rules.
 ---
 
-# Table of Contents
+# Speech Contest
 
 - [Speech Contest](#speech-contest)
 - [Description](#description)
