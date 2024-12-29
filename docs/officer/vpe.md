@@ -7,7 +7,7 @@ description: The VPE (Vice President of Education) is responsible for managing t
 
 ## Description
 
-The VPE (Vice President of Education) is responsible for managing the club's educational program, ensuring members' progress, and maintaining the overall quality of the club's educational activities. The VPE works closely with other officers to plan and execute educational sessions and events.
+The VPE(Vice President of Education) is responsible for managing the club's educational program, ensuring members' progress, and maintaining the overall quality of the club's educational activities. The VPE works closely with other officers to plan and execute educational sessions and events.
 
 ## Roles
 
