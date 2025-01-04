@@ -8,12 +8,6 @@ const TossButton: React.FC = () => {
     window.location.href = tossUrl;
   };
 
-  const isMobile = window.matchMedia('(max-width: 768px)').matches;
-
-  if (!isMobile) {
-    return null;
-  }
-
   return (
     <BrowserOnly>
       {() => {

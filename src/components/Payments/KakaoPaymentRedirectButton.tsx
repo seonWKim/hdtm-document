@@ -1,4 +1,4 @@
-import React from 'react';
+;import React from 'react';
 import { HDTM_ACCOUNT_NO } from '@site/src/components/Payments/accountNo';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
@@ -7,12 +7,6 @@ const KakaoPaymentRedirectButton: React.FC = () => {
     const kakaoUrl = `kakaobank://send?accountNumber=${HDTM_ACCOUNT_NO}&bankCode=090`;
     window.location.href = kakaoUrl;
   };
-
-  const isMobile = window.matchMedia('(max-width: 768px)').matches;
-
-  if (!isMobile) {
-    return null;
-  }
 
   return (
     <BrowserOnly>
