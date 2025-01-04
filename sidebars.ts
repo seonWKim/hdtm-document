@@ -3,6 +3,11 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     {
+      type: 'doc',
+      id: 'intro', // The document ID of the intro page
+      label: 'Introduction', // The label to display in the sidebar
+    },
+    {
       type: 'category',
       label: 'Roles',
       collapsed: false,
