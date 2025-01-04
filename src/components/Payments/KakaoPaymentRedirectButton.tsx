@@ -1,7 +1,7 @@
 import React from 'react';
 import {HDTM_ACCOUNT_NO} from "@site/src/components/Payments/accountNo";
 
-const KakaoButton: React.FC = () => {
+const KakaoPaymentRedirectButton: React.FC = () => {
   const handleKakaoOpen = () => {
     const kakaoUrl =
         `kakaobank://send?accountNumber=${HDTM_ACCOUNT_NO}&bankCode=090`;
@@ -30,4 +30,4 @@ const buttonStyle: React.CSSProperties = {
   cursor: 'pointer',
 };
 
-export default KakaoButton;
+export default KakaoPaymentRedirectButton;
