@@ -1,27 +1,27 @@
-;import React from 'react';
+import React from 'react';
 import { HDTM_ACCOUNT_NO } from '@site/src/components/Payments/accountNo';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 const KakaoPaymentRedirectButton: React.FC = () => {
   const handleKakaoOpen = () => {
-    const kakaoUrl = `kakaobank://send?accountNumber=${HDTM_ACCOUNT_NO}&bankCode=090`;
+    const kakaoUrl = `kakaotalk://send?accountNumber=${HDTM_ACCOUNT_NO}&bankCode=090`;
     window.location.href = kakaoUrl;
   };
 
   return (
-    <BrowserOnly>
-      {() => {
-        const isMobile = window.matchMedia('(max-width: 768px)').matches;
-        if (!isMobile) {
-          return null;
-        }
-        return (
-          <button onClick={handleKakaoOpen} style={buttonStyle}>
-            Open KakaoBank
-          </button>
-        );
-      }}
-    </BrowserOnly>
+      <BrowserOnly>
+        {() => {
+          const isMobile = window.matchMedia('(max-width: 768px)').matches;
+          if (!isMobile) {
+            return null;
+          }
+          return (
+              <button onClick={handleKakaoOpen} style={buttonStyle}>
+                Open KakaoTalk
+              </button>
+          );
+        }}
+      </BrowserOnly>
   );
 };
 
