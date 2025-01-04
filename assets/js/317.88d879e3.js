@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhdtm_document=self.webpackChunkhdtm_document||[]).push([[317],{5317:(t,u,e)=>{e.r(u),e.d(u,{default:()=>d});var n=e(6540),c=e(6347);function d(){const t=(0,c.W6)();return(0,n.useEffect)((()=>{t.push("/hdtm-document/docs/intro")}),[t]),null}}}]);
