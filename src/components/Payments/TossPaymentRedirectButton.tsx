@@ -1,5 +1,6 @@
 import React from 'react';
 import { HDTM_ACCOUNT_NO } from '@site/src/components/Payments/accountNo';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 const TossButton: React.FC = () => {
   const handleTossOpen = () => {
@@ -14,9 +15,19 @@ const TossButton: React.FC = () => {
   }
 
   return (
-    <button onClick={handleTossOpen} style={buttonStyle}>
-      Open Toss
-    </button>
+    <BrowserOnly>
+      {() => {
+        const isMobile = window.matchMedia('(max-width: 768px)').matches;
+        if (!isMobile) {
+          return null;
+        }
+        return (
+          <button onClick={handleTossOpen} style={buttonStyle}>
+            Open Toss
+          </button>
+        );
+      }}
+    </BrowserOnly>
   );
 };
 
