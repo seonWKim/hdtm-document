@@ -15,5 +15,4 @@ fun, competitive element to the session.
 
 In HDTM, officers usually take ballot counter roles because they have the access to admin vote link.
 
-Members and guests can vote
-using [this link](https://docs.google.com/forms/d/e/1FAIpQLSf13Lk2ZJDfb0PI7s49CpVpw9Y_rWxHQIDX7FvhZxnZD2YKIg/viewform)
+Members and guests can vote using [this link](../others/votes)
