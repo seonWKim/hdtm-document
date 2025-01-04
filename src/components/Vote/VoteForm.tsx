@@ -18,8 +18,6 @@ const VoteForm: React.FC = () => {
 const containerStyle: React.CSSProperties = {
   display: 'flex',
   flexDirection: 'column',
-  minWidth: '640px',
-  minHeight: '1814px',
   '@media only screen and (min-width: 900px)': {
     flexDirection: 'row',
   },
