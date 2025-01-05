@@ -8,7 +8,7 @@ Let's discover **how to join HDTM meetings**.
 
 ## Getting Started
 
-Get started by **joining our [kakao chatroom](https://open.kakao.com/o/ggM3CWFb)**.
+Get started by **joining our [kakao chatroom](https://open.kakao.com/o/ggM3CWFb)**. Note that password is 1213.
 
 Or **try contacting our official [instagram account](https://www.instagram.com/hongdaetoastmasters/)**
 
