@@ -4,7 +4,7 @@ const Pathway: React.FC = () => {
   return (
     <div style={containerStyle}>
       <iframe
-        src="https://drive.google.com/file/d/12hF4mxJ5Fchaga8kYEwUQv_UmqK4Cao2/preview"
+        src="https://docs.google.com/presentation/d/1uiw5Exb7g8rAKj_JeCaOH1wlukfVgqj1/edit?usp=sharing&ouid=104107781890492594894&rtpof=true&sd=true&embedded=true"
         style={iframeStyle}
         width="640"
         height="480"
