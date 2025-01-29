@@ -1,17 +1,2 @@
-bindings/java:
-  - 'bindings/java/**'
-
-bindings/go:
-  - 'bindings/go/**'
-
-bindings/python:
-  - 'bindings/python/**'
-
-bindings/rust:
-  - 'bindings/rust/**'
-
-bindings/wasm:
-  - 'bindings/wasm/**'
-
-core:
-  - 'core/**'
+etc:
+  - '**'
