@@ -11,4 +11,4 @@ This project includes explanation of everything about HDTM, including:
 - Officer role explanation
 - Speech evaluation criteria
 - Contact information
-- Frequently Asked Questions (FAQ) 
+- Frequently Asked Questions (FAQ)
