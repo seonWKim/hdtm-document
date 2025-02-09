@@ -30,10 +30,12 @@ const FeedbackList: React.FC = () => {
 
   const fetchFeedbacks = useCallback(async () => {
     const newFeedbacks = await findFeedbacks(pageSize);
-    setFeedbacks(newFeedbacks.map(it => ({
-      ...it,
-      photoURL: it.photoURL ? it.photoURL : getRandomAvatar()
-    })));
+    setFeedbacks(
+      newFeedbacks.map((it) => ({
+        ...it,
+        photoURL: it.photoURL ? it.photoURL : getRandomAvatar(),
+      }))
+    );
   }, []);
 
   useEffect(() => {
@@ -54,45 +56,43 @@ const FeedbackList: React.FC = () => {
     if (feedbacks.length > 0) {
       if (feedbacks.length > pageSize) {
         setVisibleFeedbacks(
-            Array.from({ length: pageSize }).map(
-                (_, i) => feedbacks[(currentIndex + i) % feedbacks.length]
-            )
+          Array.from({ length: pageSize }).map(
+            (_, i) => feedbacks[(currentIndex + i) % feedbacks.length]
+          )
         );
       } else {
-        setVisibleFeedbacks(feedbacks)
+        setVisibleFeedbacks(feedbacks);
       }
     }
   }, [feedbacks, currentIndex, pageSize]);
 
   return (
-      <div className="feedback-list">
-        <div className="feedback-carousel">
-          {visibleFeedbacks.map((feedback, index) => (
-              <div
-                  key={index}
-                  className="feedback-item"
-                  style={{
-                    animation: `slideIn 0.8s ease forwards`, // Apply slide animation for new items
-                  }}
-              >
-                <div className="avatar-container">
-                  <img
-                      src={feedback?.photoURL}
-                      alt={feedback?.name}
-                      className="avatar"
-                  />
-                </div>
-                <div className="content-container">
-                  <div className="author-name">{feedback?.name}</div>
-                  <div className="comment-content">{feedback?.content}</div>
-                  <div className="timestamp">
-                    {formattedString(feedback?.createdAt)}
-                  </div>
-                </div>
-              </div>
-          ))}
+    <div className="feedback-list">
+      {visibleFeedbacks.map((feedback, index) => (
+        <div
+          key={index}
+          className="feedback-item"
+          style={{
+            animation: `slideIn 0.8s ease forwards`, // Apply slide animation for new items
+          }}
+        >
+          <div className="avatar-container">
+            <img
+              src={feedback?.photoURL}
+              alt={feedback?.name}
+              className="avatar"
+            />
+          </div>
+          <div className="content-container">
+            <div className="author-name">{feedback?.name}</div>
+            <div className="comment-content">{feedback?.content}</div>
+            <div className="timestamp">
+              {formattedString(feedback?.createdAt)}
+            </div>
+          </div>
         </div>
-      </div>
+      ))}
+    </div>
   );
 };
 

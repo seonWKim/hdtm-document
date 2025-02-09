@@ -1,12 +1,3 @@
-.feedback-carousel {
-    overflow: hidden; /* Ensure items outside the container aren't visible */
-    display: flex;
-    flex-direction: column;
-    gap: 16px; /* Add spacing between the comments */
-    max-height: 240px; /* Fix max height to ensure smoother carousel */
-    transition: transform 0.8s ease-in-out; /* Smooth transition for the carousel */
-}
-
 /* Each feedback item animation */
 .feedback-item {
     display: flex;
