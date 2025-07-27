@@ -5,6 +5,10 @@ description: The Toastmaster Speaker is responsible for delivering a prepared sp
 
 # Speaker
 
+## Overview 
+
+![speaker-overview.png](speaker-overview.png)
+
 ## Description
 
 The Toastmaster Speaker is responsible for delivering a prepared speech during the meeting. The speaker's role is to

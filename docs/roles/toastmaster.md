@@ -5,6 +5,10 @@ description: The toastmaster manages overall sessions of the meeting.
 
 # Toastmaster
 
+## Overview 
+
+![toastmaster-overview.png](toastmaster-overview.png)
+
 ## Description
 
 The toastmaster manages the following sessions during the meeting:

@@ -6,6 +6,10 @@ description: The table topic master delivers the table topic sessions of the mee
 
 # Table Topics Master
 
+## Overview 
+
+![table-topics-master-overview.png](table-topics-master-overview.png)
+
 ## Description
 
 The table topic master delivers the table topic sessions of the meeting, which helps train members to quickly organize

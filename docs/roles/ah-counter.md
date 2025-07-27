@@ -6,6 +6,10 @@ description: The Ah-Counter helps members improve their speaking clarity by iden
 
 # Ah-counter
 
+## Overview 
+
+![ah-counter-overview.png](ah-counter-overview.png)
+
 ## Description
 
 The Ah-Counter helps members improve their speaking clarity by identifying filler words and sounds (

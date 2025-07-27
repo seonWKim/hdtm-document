@@ -5,6 +5,10 @@ description: The general evaluator evaluates everything that takes place during 
 
 # General Evaluator
 
+## Overview 
+
+![general-evaluator-overview.png](general-evaluator-overview.png)
+
 ## Description
 
 The general evaluator evaluates everything that takes place during the club meeting. In addition, the general evaluator

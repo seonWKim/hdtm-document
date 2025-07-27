@@ -5,6 +5,10 @@ description: The Timer ensures meetings run on schedule by tracking the time of 
 
 # Timer
 
+## Overview 
+
+![timer-overview.png](timer-overview.png)
+
 ## Description
 
 The Timer ensures meetings run on schedule by tracking the time of speeches, table topics, and evaluations. They explain

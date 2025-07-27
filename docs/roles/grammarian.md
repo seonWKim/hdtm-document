@@ -6,6 +6,10 @@ description: The Grammarian role helps members enhance their language skills by 
 
 # Grammarian
 
+## Overview 
+
+![grammarian-overview.png](grammarian-overview.png)
+
 ## Description
 
 The Grammarian role helps members enhance their language skills by introducing a Word of the Day to expand

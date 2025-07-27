@@ -5,6 +5,8 @@ description: The evaluator evaluates speaker's speech. An evaluation normally co
 
 # Evaluator
 
+![evaluator-overview.png](evaluator-overview.png)
+
 ## Description
 
 The evaluator evaluates speaker's speech. An evaluation normally consists of three main objectives.
